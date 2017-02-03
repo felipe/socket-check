@@ -49,6 +49,6 @@ app.post('/check-in', function(req, res) {
   // Create the 'ping' for the listeners
   io.sockets.emit('ping', req.body);
 
-  res.redirect('check-in', {mbak: mapboxApiKey});
+  res.redirect('check-in');
 
 });
