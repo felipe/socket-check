@@ -7,13 +7,13 @@ var server = require('http').Server(app);
 
 require('dotenv').config();
 var mapboxApiKey = process.env.MAPBOX_APIKEY;
+var port = process.env.PORT || 3000;
 
 io = io(server);
 
-server.listen(3000, function() {
-
-  console.log('Listening on port 3000');
-
+// Init server
+server.listen(port, function () {
+  console.log('Server listening at port %d', port);
 });
 
 /*

@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   // Init Socket
-  var socket = io.connect('http://localhost:3000');
+  var socket = io();
 
   // Listen for 'ping'
   socket.on('ping', function (coords) {
