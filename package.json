@@ -1,0 +1,19 @@
+{
+  "name": "socket-check",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.1",
+    "body-parser": "^1.16.0",
+    "jade": "^1.11.0",
+    "mongodb": "^2.2.22",
+    "pug": "^2.0.0-beta10",
+    "socketio": "^1.0.0"
+  }
+}
