@@ -26,7 +26,7 @@ function setCurrentPosition(longitude, latitude) {
 document.addEventListener('DOMContentLoaded', function() {
 
   // Set Access Token
-  mapboxgl.accessToken = '';
+  mapboxgl.accessToken = mbak;
 
   // Init Map
   map = new mapboxgl.Map({
